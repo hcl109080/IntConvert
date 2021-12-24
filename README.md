@@ -1,0 +1,34 @@
+- 数字转字符串，PHP数字转字符串
+
+使用方法
+```php
+    // 先调用 randomKey 生成 keyMap
+    // $keyMap = IntConvert::randomKey();
+    
+    $keyMap = [
+        'UEXWSL59Q6GCNODZ23BIF8R4V7AKYMH1',
+        '943Z58QNX1WM7ID26SHVBFGAEYRCLOUK',
+        'G5VM36BZDQAE174KLUNYR2SIHOF8C9WX',
+        'Y1C942FGV3WM7IQZHO5KLR6XDE8UNASB',
+        '3NZU92SMQ8O64BCKFEWLDH7XY1A5RIGV',
+        'RV27F8L9NSAGMCXUW5DHZ1O43IBYQK6E',
+        'OZWFYHX3L6CVQ7KU48G1B5ASDN2RI9ME',
+        'XIND28KH9AB5G4WO6ELCZM7UQSFY3R1V',
+        'R43UM9I8GLBW52Z6ODEC7XHK1QVNSYAF',
+        'FMDEBAQ14W9K2L6SXV8IRUZG7C3NHO5Y',
+        'USEO9H4FKR5W62VNAMCI78D31QLYZXBG',
+        'OAS8UZYR6HVQ2KCG139FW7XIB5ME4DNL',
+        'RZAHWCDBKU91IN3SX48LQYVOG5MFE267',
+        '6GYUMWK8LQI49NSCVDX512B3HF7OAEZR',
+        'WY3SRM21AXI8DQ79LO6E45VCFHKZUBGN',
+        'LOR8EU3KAID4X6M7ZHQYWG9FN5B1VCS2',
+    ];
+    try {
+        $obg = new IntConvert($keyMap);
+        echo $obg->toString(1);  // 输出 7XI
+        echo $obg->toInt('7XI');  // 输出 1
+    } catch (\Exception $e) {
+        throw $e;
+    }
+```
+
