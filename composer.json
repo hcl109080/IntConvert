@@ -1,0 +1,19 @@
+{
+    "name": "hcl109080/invitation-code",
+    "description": "Convert self incrementing ID to string",
+    "type": "library",
+    "authors": [
+        {
+            "name": "hcl109080",
+            "email": "985753056@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hcl109080\\": "src"
+        }
+    }
+}
