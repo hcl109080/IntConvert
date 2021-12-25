@@ -2,6 +2,7 @@
     "name": "hcl109080/invitation-code",
     "description": "Convert self incrementing ID to string",
     "type": "library",
+    "license": ["mit"],
     "authors": [
         {
             "name": "hcl109080",
